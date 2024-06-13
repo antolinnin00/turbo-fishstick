@@ -1,0 +1,29 @@
+{
+  "name": "presentacion",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev1": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@midudev/tailwind-animations": "^0.0.7",
+    "@vercel/toolbar": "^0.1.15",
+    "astro": "^4.10.2",
+    "astro-meta-tags": "^0.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vercel": "^34.2.7"
+  },
+  "devDependencies": {
+    "@astrojs/solid-js": "^4.3.0",
+    "astro-content-devtools": "^0.1.0",
+    "solid-js": "^1.8.17"
+  }
+}
